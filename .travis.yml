@@ -1,0 +1,19 @@
+language: python
+matrix:
+  include:
+    - os: linux
+      sudo;: required
+      python: 3.5
+      env: TOXENV=py35
+    - os: linux
+      sudo;: required
+      python: 3.6
+      env: TOXENV=py36
+
+before_install:
+- pip freeze
+install:
+- pip install tox
+- python setup.py clean build install sdist
+script:
+- tox -e "{$TOXENV},flake8"

@@ -64,7 +64,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+docs/
 
 # PyBuilder
 target/
@@ -102,3 +102,25 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Sonar
+.sonar/
+
+# Visual Studio
+.vs/
+# Visual code
+.vscode/
+
+# package: testar
+tests/reports/*.xml
+tests/reports/*.html
+tests/reports/*.css
+tests/reports/*.js
+tests/reports/*.json
+tests/reports/*.png
+tests/reports/coverage/*.xml
+tests/reports/coverage/*.html
+tests/reports/coverage/*.css
+tests/reports/coverage/*.js
+tests/reports/coverage/*.json
+tests/reports/coverage/*.png

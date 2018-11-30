@@ -1,0 +1,17 @@
+include *.in
+include *.md
+include *.rst
+include *.yml
+include LICENSE
+include pytest.ini
+include tox.ini
+include source-docs/source/conf.py
+include .circleci/config.yml
+include source-docs/Makefile
+include source-docs/source/_static/loggers.rst
+include source-docs/source/index.rst
+include source-docs/make.bat
+recursive-include logs *.gitkeep
+recursive-include testar *.json
+recursive-include tests *.py
+recursive-include www *.py
