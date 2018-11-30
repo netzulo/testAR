@@ -82,7 +82,7 @@ How to exec tests ?
 +=====================+================================+
 | py27,py34,py35,py36 | Python supported versions      |
 +---------------------+--------------------------------+
-| flake8              | Exec linter in qalab/ tests/   |
+| flake8              | Exec linter in testar/ tests/  |
 +---------------------+--------------------------------+
 | coverage            | Generate XML and HTML reports  |
 +---------------------+--------------------------------+
