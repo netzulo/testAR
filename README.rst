@@ -80,7 +80,7 @@ How to exec tests ?
 +---------------------+--------------------------------+
 | TOX Env name        | Env description                |
 +=====================+================================+
-| py27,py34,py35,py36 | Python supported versions      |
+| py35,py36           | Python supported versions      |
 +---------------------+--------------------------------+
 | flake8              | Exec linter in testar/ tests/  |
 +---------------------+--------------------------------+
