@@ -79,7 +79,7 @@ INSTALL_REQUIRES = [
     'appdirs',
     'packaging>=16.8',
     'pyparsing',
-    'six==1.10.0',
+    'six==1.11.0',
     'django'
 ]
 SETUP_REQUIRES = [

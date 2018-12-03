@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
+- Missing APP_INSTALLED dependency for django causing not working installation
+
 ### Removed
 
 
